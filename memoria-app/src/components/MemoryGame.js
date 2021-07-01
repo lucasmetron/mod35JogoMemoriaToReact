@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import GameOver from './GameOver';
 
 function MemoryGame() {
+
+    const [gameOver, setGameOver] = useState(false);
+
+    function restart() {
+        setGameOver(true)
+    }
+
+
     return (
         <div>
-            <h1>Jogo da memoria</h1>
+            <GameOver show={gameOver} handleRestart={restart}></GameOver>
         </div>
     );
 }
