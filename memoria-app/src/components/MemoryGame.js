@@ -14,8 +14,8 @@ function MemoryGame() {
 
     function handleRestart() {
         setGameOver(false)
-        // game.clearCards()
-        // setCards(game.createCardsFromTechs())
+        game.clearCards()
+        setCards(game.createCardsFromTechs())
 
     }
 
