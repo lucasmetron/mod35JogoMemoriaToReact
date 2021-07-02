@@ -67,7 +67,7 @@ body{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     background-color: #101c2c;
-
+    cursor: pointer;
 }
 
 .card_back{
@@ -75,7 +75,7 @@ body{
     background-color: #05c3ff;
     font-size: 30px;
     /* display: none; */
-
+    cursor: pointer;
 }
 
 
